@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import { Container, ListGroup, Row } from 'react-bootstrap';
 
 export class UsersClass extends Component {
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
         this.state = { users: [] }
     }
     componentDidMount() {
