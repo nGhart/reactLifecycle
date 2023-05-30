@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(5, 33, 25);
+}
+
+.userSection {
+  width: 80vw;
+  background-color: rgb(5, 68, 48);
+  padding: 20px;
+}
+
+.userSection h1 {
+  color: goldenrod;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+
+span {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.userContainer {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 5px;
+}
